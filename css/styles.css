@@ -7,8 +7,8 @@ body{
   }
 
 h1{
-  font-size: 5.625rem;
-margin-top: 50px auto 0 auto;
+  font-size: 5rem;
+/* margin-top: 20px auto 0 auto; */
 font-family: 'Sacramento', cursive;
 color: #66BFBF;
 
@@ -42,9 +42,9 @@ a{
     color: #EAF6F6;
   }
 .top-container{
-    background-color: #E4F9F5;
+    /* background-color: #E4F9F5; */
     position: relative;
-    padding-top: 100px;
+    
 }
 .middle-container{
 margin: 100px 0;
@@ -67,6 +67,14 @@ padding: 50px 0 20px;
   width: 30%;
   margin: auto;
 }
+.background-image {
+  padding-top: 100px;
+  position: relative;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .contact-meessage{
   width: 40%;
   margin: 40px auto 60px;
@@ -86,6 +94,7 @@ padding: 50px 0 20px;
   left: 300px;
   bottom: 300px;
 }
+
 .cprog{
   width: 25%;
   float: left;
